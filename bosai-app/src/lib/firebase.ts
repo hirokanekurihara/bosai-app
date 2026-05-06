@@ -5,12 +5,12 @@ import { getFirestore } from "firebase/firestore";
 
 // 環境変数から設定情報を読み込み
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAWmYRuseJHJclGYrDgVVdwErnhtFe3Qno",
+  authDomain: "bosai-app-3e951.firebaseapp.com",
+  projectId: "bosai-app-3e951",
+  storageBucket: "bosai-app-3e951.firebasestorage.app",
+  messagingSenderId: "62509682919",
+  appId: "1:62509682919:web:bc031d00cdb28b1999d242"
 };
 
 // Firebase アプリの初期化（重複初期化を防ぐ）
