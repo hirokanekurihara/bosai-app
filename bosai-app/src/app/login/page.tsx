@@ -55,7 +55,7 @@ export default function LoginPage() {
       } else if (err.code === "auth/weak-password") {
         setError("パスワードが弱すぎます。より強力なパスワードを設定してください");
       } else {
-        setError("認証に失敗しました。もう一度お試しください");
+        setError(`認証エラー: ${err.code || err.message || "不明なエラー"}`);
       }
     } finally {
       setLoading(false);
